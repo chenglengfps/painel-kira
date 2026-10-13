@@ -1,11 +1,10 @@
 {
   "name": "painel-kira",
   "version": "1.0.0",
-  "description": "Painel Kira",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "start": "node index.js",
-    "build": "echo 'Build concluido'"
-  },
-  "dependencies": {}
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  }
 }
